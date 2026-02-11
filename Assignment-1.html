@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Ass-1.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="eventform">
+            <form class="form">
+                <label for="eventTitle">Event Title:</label>
+                <input type="text" id="eventTitle" name="eventTitle"><br><br>
+                <label for="eventDate">Event Date:</label>
+                <input type="date" id="eventDate" name="eventDate"><br><br>
+                <label for="category">Category:</label>
+                <select id="category" name="category">
+                    <option value="Conference">Conference</option>
+                    <option value="Workshop">Workshop</option>
+                    <option value="Meetup">Meetup</option>
+                    <option value="Webinar">Webinar</option>
+                    <option value="Social">Social</option>
+                </select><br><br>
+                <label for="description">Description:</label>
+                <textarea id="description" name="description"></textarea><br><br>
+                <input type="submit" value="Add Event">
+            </form>
+            </div>
+            <div class="events">
+                <button class="clearAll">Clear All Events</button>
+                <button>Add sample events</button>
+                <div class="cards"></div>
+            </div>
+            <div class="domContainer">
+                <h3>DOM Manipulation Demo</h3>
+                <p id="keyDisplay">Press Any Key!</p>
+            </div>
+       
+    </div>
+
+    <script src="Ass-1.js"></script>
+</body>
+</html>
