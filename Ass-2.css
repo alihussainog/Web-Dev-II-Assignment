@@ -1,0 +1,82 @@
+body{
+margin:0;
+font-family: Arial;
+background: linear-gradient(135deg,#010308,#aaacb7);
+color:white;
+padding:40px;
+}
+
+.title{
+text-align:center;
+margin-bottom:30px;
+}
+
+.top-section{
+display:flex;
+gap:20px;
+justify-content:center;
+}
+
+.card{
+background:#f2f2f2;
+color:black;
+padding:20px;
+border-radius:10px;
+width:400px;
+box-shadow:0 5px 10px rgba(0,0,0,0.2);
+}
+
+input{
+width:70%;
+padding:8px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+button{
+background:#0fcd35;
+border:none;
+color:white;
+padding:8px 15px;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#d23789;
+}
+
+.history span{
+background:#c41717;
+color:white;
+padding:5px 10px;
+border-radius:15px;
+margin:5px;
+display:inline-block;
+cursor:pointer;
+font-size:13px;
+}
+
+.info p{
+display:flex;
+justify-content:space-between;
+border-bottom:1px solid #ddd;
+padding:5px 0;
+}
+
+.console-card{
+background:#f2f2f2;
+color:black;
+margin:20px auto;
+width:840px;
+padding:15px;
+border-radius:10px;
+}
+
+.console{
+background:#0b1b4a;
+color:white;
+padding:15px;
+border-radius:8px;
+font-family:monospace;
+}
